@@ -1,5 +1,10 @@
+import React from 'react';
+import css from './css.scss';
+
 export default ({ lastUpdate, light }) => {
   return (
+    <React.Fragment>
+    <div className={css.example}> test </div>
     <div className={light ? 'light' : ''}>
       {format(new Date(lastUpdate))}
       <style jsx>{`
@@ -16,6 +21,7 @@ export default ({ lastUpdate, light }) => {
         }
       `}</style>
     </div>
+    </React.Fragment>
   )
 }
 
