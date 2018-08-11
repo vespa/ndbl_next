@@ -94,8 +94,7 @@ class Form extends React.Component {
   }
 
   _generateInputs() {
-    const items = this._createFileds();
-    const elements = items.map((item) => {
+    return this._createFileds().map((item) => {
       const {
         title, name, type, required = false, validation = '', Comp, value,
       } = item;
@@ -114,14 +113,13 @@ class Form extends React.Component {
         </React.Fragment>
       );
     });
-    return elements;
   }
 
   render() {
-    const { validate, fields } = this.state;
+    const { validate } = this.state;
     return (
       <form action="/sent" onSubmit={this._onSubmit} noValidate={validate}>
-        {fields || this._generateInputs()}
+        {this._generateInputs()}
         <button type="submit">
           send
         </button>

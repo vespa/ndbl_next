@@ -10,7 +10,6 @@ ShallowWrapper {
     required={true}
     title="Name"
     type="text"
-    valid={true}
     validation="no-empty"
     value=""
   />,
@@ -39,12 +38,13 @@ ShallowWrapper {
           Name
         </span>
         <input
-          className="true undefined inp inp-name"
+          className=" undefined inp inp-name"
           id="name"
           name="name"
           onChange={[Function]}
           placeholder="Name"
           required={true}
+          title="Name"
           type="text"
           validation="no-empty"
           value=""
@@ -68,12 +68,13 @@ ShallowWrapper {
             Name
           </span>,
           <input
-            className="true undefined inp inp-name"
+            className=" undefined inp inp-name"
             id="name"
             name="name"
             onChange={[Function]}
             placeholder="Name"
             required={true}
+            title="Name"
             type="text"
             validation="no-empty"
             value=""
@@ -102,12 +103,13 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "true undefined inp inp-name",
+            "className": " undefined inp inp-name",
             "id": "name",
             "name": "name",
             "onChange": [Function],
             "placeholder": "Name",
             "required": true,
+            "title": "Name",
             "type": "text",
             "validation": "no-empty",
             "value": "",
@@ -140,12 +142,13 @@ ShallowWrapper {
             Name
           </span>
           <input
-            className="true undefined inp inp-name"
+            className=" undefined inp inp-name"
             id="name"
             name="name"
             onChange={[Function]}
             placeholder="Name"
             required={true}
+            title="Name"
             type="text"
             validation="no-empty"
             value=""
@@ -169,12 +172,13 @@ ShallowWrapper {
               Name
             </span>,
             <input
-              className="true undefined inp inp-name"
+              className=" undefined inp inp-name"
               id="name"
               name="name"
               onChange={[Function]}
               placeholder="Name"
               required={true}
+              title="Name"
               type="text"
               validation="no-empty"
               value=""
@@ -203,12 +207,13 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "true undefined inp inp-name",
+              "className": " undefined inp inp-name",
               "id": "name",
               "name": "name",
               "onChange": [Function],
               "placeholder": "Name",
               "required": true,
+              "title": "Name",
               "type": "text",
               "validation": "no-empty",
               "value": "",
