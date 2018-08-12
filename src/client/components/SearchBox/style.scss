@@ -1,0 +1,20 @@
+.search-box  {
+  width: 100%;
+  position: relative;
+  width: 100%;
+  margin-top: 8px;
+  &__input {
+    width: 100%;
+    border: 0;
+    height: 30px;
+  }
+  &__button {
+    position: absolute;
+    width: 20px;
+    display: block;
+    overflow: hidden;
+    top:0;
+    right: 0;
+    margin: 8px;
+  }
+}

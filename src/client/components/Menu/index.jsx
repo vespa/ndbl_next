@@ -1,18 +1,38 @@
 import React from 'react';
-import Link from 'next/link';
 import cssMain from '../../../scss/main.scss';
 import css from './style.scss';
+import MenuItem from './MenuItem';
+import SearchBox from '../SearchBox';
+import MessageBox from '../MessageBox';
 
 const Index = () => (
   <nav className={`${css['main-menu']} ${cssMain.container}`}>
-    <Link href="/">
-      <a href="/" className={`${cssMain.col}`}>
-      Home
-      </a>
-    </Link>
-    <Link href="/test">
-      <a href="/test" className={`${cssMain.col}`}>About</a>
-    </Link>
+    <div
+      className={`
+        ${cssMain.col_2}
+        ${css['main-menu__logo']}
+      `}
+    >
+      <div
+        className={`
+          ${css['main-menu__logo__img']}
+          ${cssMain.icon}
+          ${cssMain.icon__logo}
+        `}
+      >
+        Logo
+      </div>
+    </div>
+    <div className={cssMain.col_6}>
+      <MenuItem href="/" text="Home" />
+      <MenuItem href="/test" text="test" />
+    </div>
+    <div className={cssMain.col_3}>
+      <SearchBox />
+    </div>
+    <div className={cssMain.col_1}>
+      <MessageBox />
+    </div>
   </nav>
 );
 
