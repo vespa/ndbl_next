@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './style.scss';
 
-const Index = () => (
+const Header = () => (
   <header className={css.header}>
     <div className={css.header__opening}>
       <div className={`${css['header__opening__box--opacity']} ${css.header__opening__box} `} />
@@ -13,4 +13,4 @@ const Index = () => (
   </header>
 );
 
-export default Index;
+export default Header;
