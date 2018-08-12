@@ -1,0 +1,12 @@
+
+@import '../../../scss/_vars.scss';
+
+// background-image: url('../assets/img/open.jpg');
+.header {
+  &__opening{
+    background-image: url('../../../assets/img/open.jpg');
+    height: 305px;
+    max-width: $max_width;
+    margin: 0 auto;
+  }
+}

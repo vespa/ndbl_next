@@ -1,0 +1,24 @@
+
+@import '../../../scss/_vars.scss';
+
+.main-menu {
+  width: 100%;
+  height: 3rem;
+  background-color: $color_primary;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  a {
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    transition: all 200ms;
+    &:hover {
+      background-color: #999;
+      color: $color_primary
+    }
+    // display: block;
+    // float: left;
+  }
+}

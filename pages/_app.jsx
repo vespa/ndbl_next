@@ -1,5 +1,7 @@
 import App, { Container } from 'next/app';
 import React from 'react';
+import 'normalize.css';
+import '../src/scss/main.scss';
 import { Provider } from 'react-redux';
 import withReduxStore from '../lib/with-redux-store';
 
