@@ -3,10 +3,41 @@
 
 // background-image: url('../assets/img/open.jpg');
 .header {
+  background-color: #46474a;
+  background-image: url('../../../assets/img/open.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 305px;
   &__opening{
-    background-image: url('../../../assets/img/open.jpg');
-    height: 305px;
-    max-width: $max_width;
+    position: relative;
+    height: 175px;
+    width: 100%;
+    max-width: $max_width_container;
     margin: 0 auto;
+    text-align: center;
+    &__box {
+      color: #fff;
+      height: inherit;
+      margin-top: 52px;
+      position: absolute;
+      width: 100%;
+      &--opacity{
+        opacity: 0.5;
+        background-color: $color_primary;
+      }
+      h1{
+        padding: 28px 0 0 0;
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: normal
+      }
+      h2 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: normal
+      }
+    }
   }
 }
