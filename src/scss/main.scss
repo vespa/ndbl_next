@@ -1,18 +1,58 @@
 @import '_vars.scss';
-
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
 body {
-  padding-top: 3rem;
+  font-size: $fontSize;
+  padding-top: 45px;
   font-family: 'Roboto', sans-serif;
   background-color: $color_secundary;
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none
 }
 .container {
-  display: flex;  
-  flex-flow: row wrap;
+  // display: table;  
 }
-.col {
-  flex: 1 auto;
+// grid
+
+$class-slug: col;
+$base: (100 / 12);
+@for $i from 1 through $grid {
+  .#{$class-slug}_#{($i)} {
+    float: left;
+    box-sizing: border-box;
+    width: ($base * $i )+%;
+    display: block;
+    padding: 0 $gutter;
+  }
+}
+
+.icon{
+  background-image: url('../assets/img/icons-sprite.png');
+  background-repeat: no-repeat;
+  color: transparent;
+  display: table;
+  &__logo {
+    background-position: -7px -6px;
+    width: 62px;
+    height: 30px;
+  }
+  &__search {
+    border: 0;
+    background-color: transparent;
+    background-position: -60px -48px;
+    height: 16px;
+    width: 16px;
+    color: transparent;
+  }
+  &__message {
+    height: 20px;
+    width: 20px;
+    display: block;
+    background-position: -80px -8px;
+  }
 }
