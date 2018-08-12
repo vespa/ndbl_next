@@ -1,16 +1,34 @@
 import React from 'react';
-// import css from './style.scss';
+import css from './style.scss';
 import cssMain from '../../../scss/main.scss';
 
 const MessageBox = () => {
   return (
-    <React.Fragment>
+    <div className={`${css['message-box']}`}>
       <div
-        className={`${cssMain.icon} ${cssMain.icon__message}`}
+        className={`
+          ${cssMain.col_6}
+        `}
       >
-      message
+        <div
+          className={`
+            ${cssMain.icon}
+            ${cssMain.icon__message}
+            ${cssMain.col_6}
+          `}
+        >
+        message
+        </div>
       </div>
-    </React.Fragment>
+      <div
+        className={`
+          ${css['message-box__counter']}
+          ${cssMain.col_6}
+        `}
+      >
+        1
+      </div>
+    </div>
   );
 };
 
