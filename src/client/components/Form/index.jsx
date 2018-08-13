@@ -2,6 +2,7 @@ import React from 'react';
 import Input from './Input';
 import Validation from '../Validation';
 import css from './style.scss';
+import Header from '../Header';
 /*
   name
   last name
@@ -119,6 +120,7 @@ class Form extends React.Component {
     const { validate } = this.state;
     return (
       <form action="/sent" onSubmit={this._onSubmit} noValidate={validate}>
+        <Header img="form" title="Purchasing assistant" subtitle="Amsterdam, the Netherlands" />
         {this._generateInputs()}
         <button type="submit">
           send

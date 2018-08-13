@@ -2,7 +2,6 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import Menu from '../src/client/components/Menu';
-import Header from '../src/client/components/Header';
 
 export default class MyDocument extends Document {
   render() {
@@ -18,7 +17,6 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Menu />
-          <Header />
           <Main />
           <NextScript />
         </body>
