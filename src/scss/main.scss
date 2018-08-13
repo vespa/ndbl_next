@@ -15,20 +15,8 @@ a {
   text-decoration: none
 }
 .container {
-  // display: table;  
-}
-// grid
-
-$class-slug: col;
-$base: (100 / 12);
-@for $i from 1 through $grid {
-  .#{$class-slug}_#{($i)} {
-    float: left;
-    box-sizing: border-box;
-    width: ($base * $i )+%;
-    display: block;
-    padding: 0 $gutter;
-  }
+  max-width: $max_width_container;
+  margin: 0 auto;
 }
 
 .icon{
@@ -54,5 +42,23 @@ $base: (100 / 12);
     width: 20px;
     display: block;
     background-position: -80px -8px;
+  }
+}
+.title {
+  &--main {
+    font-size: 40px;
+    margin: 56px 0;
+  }
+}
+// grid
+$class-slug: col;
+$base: (100 / 12);
+@for $i from 1 through $grid {
+  .#{$class-slug}_#{($i)} {
+    float: left;
+    box-sizing: border-box;
+    width: ($base * $i )+%;
+    display: block;
+    padding: 0 $gutter;
   }
 }

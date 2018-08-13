@@ -2,6 +2,12 @@
   &__input {
     &--error {
       border: 1px solid red;
+      & ~ .form__input__error-message{
+        display: block;
+      }
+    }
+    &__error-message {
+      display: none;
     }
   }
 }

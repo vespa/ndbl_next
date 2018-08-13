@@ -6,7 +6,7 @@ import SearchBox from '../SearchBox';
 import MessageBox from '../MessageBox';
 
 const Index = () => (
-  <nav className={`${css['main-menu']} ${cssMain.container}`}>
+  <nav className={`${css['main-menu']}`}>
     <div
       className={`
         ${cssMain.col_2}

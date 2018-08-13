@@ -2,7 +2,6 @@ import React from 'react';
 import Input from './Input';
 import Validation from '../Validation';
 import css from './style.scss';
-import Header from '../Header';
 /*
   name
   last name
@@ -71,31 +70,11 @@ class Form extends React.Component {
   }
 
   _createFileds() {
-    const { email, name } = this.state;
-    return [
-      {
-        title: 'Name',
-        name: 'name',
-        type: 'text',
-        required: true,
-        validation: 'no-empty',
-        value: name,
-        Comp: Input,
-      },
-      {
-        title: 'E-mail',
-        name: 'email',
-        type: 'email',
-        required: true,
-        validation: 'e-mail',
-        value: email,
-        Comp: Input,
-      },
-    ];
+
   }
 
-  _generateInputs() {
-    return this._createFileds().map((item) => {
+  _generateInputs(items) {
+    return items.map((item) => {
       const {
         title, name, type, required = false, validation = '', Comp, value,
       } = item;
@@ -109,8 +88,11 @@ class Form extends React.Component {
             validation={validation}
             value={value}
             onChange={this._updateFieldValue(name)}
-          />
-          <div className="">{title} {Validation.getMessage(validation)}</div>
+          >
+            <div className={css['form__input__error-message']}>
+              {title} {Validation.getMessage(validation)}
+            </div>
+          </Comp>
         </React.Fragment>
       );
     });
@@ -118,10 +100,29 @@ class Form extends React.Component {
 
   render() {
     const { validate } = this.state;
+    const { email, name } = this.state;
     return (
       <form action="/sent" onSubmit={this._onSubmit} noValidate={validate}>
-        <Header img="form" title="Purchasing assistant" subtitle="Amsterdam, the Netherlands" />
-        {this._generateInputs()}
+        {this._generateInputs([
+          {
+            title: 'Name',
+            name: 'name',
+            type: 'text',
+            required: true,
+            validation: 'no-empty',
+            value: name,
+            Comp: Input,
+          },
+          {
+            title: 'E-mail',
+            name: 'email',
+            type: 'email',
+            required: true,
+            validation: 'e-mail',
+            value: email,
+            Comp: Input,
+          },
+        ])}
         <button type="submit">
           send
         </button>

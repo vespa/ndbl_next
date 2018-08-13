@@ -1,6 +1,7 @@
 /* eslint-disable */
 module.exports = {
   setupFiles: ['<rootDir>/jest.setup.js'],
+  verbose: true,
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   testURL: 'http://localhost',
   "moduleNameMapper":{

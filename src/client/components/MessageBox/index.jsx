@@ -14,7 +14,6 @@ const MessageBox = () => {
           className={`
             ${cssMain.icon}
             ${cssMain.icon__message}
-            ${cssMain.col_6}
           `}
         >
         message

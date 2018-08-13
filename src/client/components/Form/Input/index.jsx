@@ -12,6 +12,7 @@ const Input = ({
   validation,
   value,
   onChange,
+  children,
 }) => {
   return (
     <Fragment>
@@ -31,6 +32,7 @@ const Input = ({
           value={value}
           onChange={onChange}
         />
+        {children}
       </label>
     </Fragment>
   );
@@ -44,12 +46,14 @@ Input.propTypes = {
   validation: PropTypes.string,
   value: PropTypes.string,
   onChange: PropTypes.func,
+  children: PropTypes.node,
 };
 
 Input.defaultProps = {
   validation: '',
   required: false,
   value: '',
+  children: <span />,
   onChange: () => {},
 };
 export default Input;
