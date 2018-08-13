@@ -9,11 +9,9 @@ class Index extends React.Component {
     return (
       <React.Fragment>
         <Template>
-          <Header img="form" title="About us" subtitle="ed consequat enim a faucibus" />
+          <Header img="form" title="Success!" subtitle="Thanks for applying" />
           <div className={cssMain.container}>
-            <h2 className={cssMain['title--main']}>
-             Morbi at interdum arcu, ut condimentum tellus.
-            </h2>
+            <h2 className={cssMain['title--main']}>Lorem ipsum dolor sit amet</h2>
             <p>
               Suspendisse laoreet magna sem, ac malesuada ante pretium ut.
               Vivamus vel nunc id ante sollicitudin aliquam.

@@ -5,25 +5,13 @@ import Input from './Input';
 import cssMain from '../../../scss/main.scss';
 import Validation from '../Validation';
 import css from './style.scss';
-/*
-  name
-  last name
-  Citi
-  email
-  country
-  telefone
-  motivation
-  atach resume, portfolio, photo
-  send a copy
-  Apply button
-*/
-
 
 class Form extends React.Component {
   constructor(args) {
     super(args);
     this.state = {
       validate: false,
+      action: 'http://localhost:5000/api/contact',
     };
     this._generateInputs = this._generateInputs.bind(this);
     this._updateFieldValue = this._updateFieldValue.bind(this);
@@ -60,34 +48,36 @@ class Form extends React.Component {
     item.setAttribute('class', `${currentClass} ${errorClass}`);
   }
 
-  _submit() {
+  _submit(data) {
     fetch('http://localhost:5000/api/contact', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        firstParam: 'yourValue',
-        secondParam: 'yourOtherValue',
-      }),
+      body: JSON.stringify(data),
+    }).then((res) => {
+      if (res.status === 200) {
+        Router.push('/success');
+      }
     });
   }
 
   _onSubmit(e) {
     e.preventDefault();
-    const items = e.target.querySelectorAll('[required]');
+    const items = e.target.querySelectorAll('input, textarea, select');
+    const success = {};
     let send = true;
     [].slice.call(items).map((item) => {
-      if (!Validation.check(item)) {
+      if (item.getAttribute('required') !== null && !Validation.check(item)) {
         this._addErrorClass(item);
         send = false;
       }
+      success[item.name] = item.value;
       return item;
     });
     if (send) {
-      // const data = new FormData(e.target);
-      // console.log(data);
+      this._submit(success);
     }
   }
 
@@ -137,9 +127,10 @@ class Form extends React.Component {
       address,
       addressNumber,
       addressZip,
+      action,
     } = this.state;
     return (
-      <form action="/sent" onSubmit={this._onSubmit} noValidate={validate}>
+      <form method="post" action={action} onSubmit={this._onSubmit} noValidate={validate}>
 
         <h3>Personal details * </h3>
         <div className={`${cssMain.col_12}`}>
@@ -165,16 +156,30 @@ class Form extends React.Component {
           ])}
         </div>
         <div className={`${cssMain.col_12}`}>
-          {this._generateInputs(`${cssMain.col_4} col ${css['form__inp--multi']}`, [
-            {
-              title: 'Sex',
-              name: 'sex',
-              type: 'text',
-              required: true,
-              validation: 'no-empty',
-              value: sex,
-              Comp: Input,
-            },
+          <div className={`
+              ${cssMain.col_4}
+              ${css['form__inp--multi']}
+            `}
+          >
+            <select
+              name="sex"
+              value={sex}
+              onChange={this._updateFieldValue('sex')}
+              className={`${cssMain.col_12}`}
+            >
+              <option>
+                Female
+              </option>
+              <option>
+                Male
+              </option>
+              <option>
+                Other
+              </option>
+            </select>
+          </div>
+
+          {this._generateInputs(`${cssMain.col_4} ${css['form__inp--multi']}`, [
             {
               title: 'birthday',
               name: 'birthday',
@@ -228,7 +233,15 @@ class Form extends React.Component {
           ])}
         </div>
         <div className={`${cssMain.col_12}`}>
-          <button type="submit">
+          <button
+            type="submit"
+            className={`
+              ${cssMain.btn}
+              ${cssMain.btn__confirm}
+              ${cssMain.col_5}
+              ${cssMain.right}
+            `}
+          >
             send
           </button>
         </div>
