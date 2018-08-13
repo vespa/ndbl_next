@@ -30,14 +30,10 @@ ShallowWrapper {
         <div
           className={undefined}
         >
-          <h1
-            className={undefined}
-          >
+          <h1>
             test
           </h1>
-          <h2
-            className={undefined}
-          >
+          <h2>
             test 2
           </h2>
         </div>
@@ -59,14 +55,10 @@ ShallowWrapper {
           <div
             className={undefined}
           >
-            <h1
-              className={undefined}
-            >
+            <h1>
               test
             </h1>
-            <h2
-              className={undefined}
-            >
+            <h2>
               test 2
             </h2>
           </div>,
@@ -92,14 +84,10 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h1
-                className={undefined}
-              >
+              <h1>
                 test
               </h1>,
-              <h2
-                className={undefined}
-              >
+              <h2>
                 test 2
               </h2>,
             ],
@@ -113,7 +101,6 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "test",
-                "className": undefined,
               },
               "ref": null,
               "rendered": "test",
@@ -125,7 +112,6 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "test 2",
-                "className": undefined,
               },
               "ref": null,
               "rendered": "test 2",
@@ -154,14 +140,10 @@ ShallowWrapper {
           <div
             className={undefined}
           >
-            <h1
-              className={undefined}
-            >
+            <h1>
               test
             </h1>
-            <h2
-              className={undefined}
-            >
+            <h2>
               test 2
             </h2>
           </div>
@@ -183,14 +165,10 @@ ShallowWrapper {
             <div
               className={undefined}
             >
-              <h1
-                className={undefined}
-              >
+              <h1>
                 test
               </h1>
-              <h2
-                className={undefined}
-              >
+              <h2>
                 test 2
               </h2>
             </div>,
@@ -216,14 +194,10 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h1
-                  className={undefined}
-                >
+                <h1>
                   test
                 </h1>,
-                <h2
-                  className={undefined}
-                >
+                <h2>
                   test 2
                 </h2>,
               ],
@@ -237,7 +211,6 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "test",
-                  "className": undefined,
                 },
                 "ref": null,
                 "rendered": "test",
@@ -249,7 +222,6 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "test 2",
-                  "className": undefined,
                 },
                 "ref": null,
                 "rendered": "test 2",

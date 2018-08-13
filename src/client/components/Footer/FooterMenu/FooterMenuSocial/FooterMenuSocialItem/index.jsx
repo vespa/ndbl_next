@@ -15,8 +15,12 @@ const FooterMenuSocialSocialItem = ({ text, icon, href }) => {
 
 FooterMenuSocialSocialItem.propTypes = {
   text: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.string,
   href: PropTypes.string.isRequired,
+};
+
+FooterMenuSocialSocialItem.defaultProps = {
+  icon: '',
 };
 
 export default FooterMenuSocialSocialItem;
