@@ -12,7 +12,9 @@ ShallowWrapper {
     type="text"
     validation="no-empty"
     value=""
-  />,
+  >
+    <span />
+  </Input>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -49,6 +51,7 @@ ShallowWrapper {
           validation="no-empty"
           value=""
         />
+        <span />
       </label>,
     },
     "ref": null,
@@ -79,6 +82,7 @@ ShallowWrapper {
             validation="no-empty"
             value=""
           />,
+          <span />,
         ],
         "htmlFor": "name",
       },
@@ -118,6 +122,15 @@ ShallowWrapper {
           "rendered": null,
           "type": "input",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
       ],
       "type": "label",
     },
@@ -153,6 +166,7 @@ ShallowWrapper {
             validation="no-empty"
             value=""
           />
+          <span />
         </label>,
       },
       "ref": null,
@@ -183,6 +197,7 @@ ShallowWrapper {
               validation="no-empty"
               value=""
             />,
+            <span />,
           ],
           "htmlFor": "name",
         },
@@ -221,6 +236,15 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "span",
           },
         ],
         "type": "label",

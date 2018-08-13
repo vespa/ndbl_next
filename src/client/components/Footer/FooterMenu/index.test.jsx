@@ -1,15 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import MenuItem from './index';
+import FooterMenu from './index';
 
-describe('[Component: MenuItem]', () => {
+describe('[Component: FooterMenu]', () => {
   let wrapper;
-  const props = {
-    text: 'Name',
-    href: 'name',
-  };
   beforeEach(() => {
-    wrapper = shallow(<MenuItem {...props} />);
+    wrapper = shallow(<FooterMenu title="test" links={[{ text: 'Home', href: '/' }]} />);
   });
   it('should match snapshot', () => {
     expect(wrapper).toMatchSnapshot();

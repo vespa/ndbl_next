@@ -1,10 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[Component: Input] should match snapshot 1`] = `
+exports[`[Component: Header] should match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__unrendered__): <Header
+    img="open"
+    subtitle="test 2"
+    title="test"
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -27,14 +31,16 @@ ShallowWrapper {
           className={undefined}
         >
           <h1>
-            Purchasing assistant
+            test
           </h1>
           <h2>
-            Amsterdam, the Netherlands
+            test 2
           </h2>
         </div>
       </div>,
-      "className": undefined,
+      "className": "
+      undefined undefined
+    ",
     },
     "ref": null,
     "rendered": Object {
@@ -50,10 +56,10 @@ ShallowWrapper {
             className={undefined}
           >
             <h1>
-              Purchasing assistant
+              test
             </h1>
             <h2>
-              Amsterdam, the Netherlands
+              test 2
             </h2>
           </div>,
         ],
@@ -79,10 +85,10 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <h1>
-                Purchasing assistant
+                test
               </h1>,
               <h2>
-                Amsterdam, the Netherlands
+                test 2
               </h2>,
             ],
             "className": undefined,
@@ -94,10 +100,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Purchasing assistant",
+                "children": "test",
               },
               "ref": null,
-              "rendered": "Purchasing assistant",
+              "rendered": "test",
               "type": "h1",
             },
             Object {
@@ -105,10 +111,10 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Amsterdam, the Netherlands",
+                "children": "test 2",
               },
               "ref": null,
-              "rendered": "Amsterdam, the Netherlands",
+              "rendered": "test 2",
               "type": "h2",
             },
           ],
@@ -135,14 +141,16 @@ ShallowWrapper {
             className={undefined}
           >
             <h1>
-              Purchasing assistant
+              test
             </h1>
             <h2>
-              Amsterdam, the Netherlands
+              test 2
             </h2>
           </div>
         </div>,
-        "className": undefined,
+        "className": "
+      undefined undefined
+    ",
       },
       "ref": null,
       "rendered": Object {
@@ -158,10 +166,10 @@ ShallowWrapper {
               className={undefined}
             >
               <h1>
-                Purchasing assistant
+                test
               </h1>
               <h2>
-                Amsterdam, the Netherlands
+                test 2
               </h2>
             </div>,
           ],
@@ -187,10 +195,10 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h1>
-                  Purchasing assistant
+                  test
                 </h1>,
                 <h2>
-                  Amsterdam, the Netherlands
+                  test 2
                 </h2>,
               ],
               "className": undefined,
@@ -202,10 +210,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Purchasing assistant",
+                  "children": "test",
                 },
                 "ref": null,
-                "rendered": "Purchasing assistant",
+                "rendered": "test",
                 "type": "h1",
               },
               Object {
@@ -213,10 +221,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Amsterdam, the Netherlands",
+                  "children": "test 2",
                 },
                 "ref": null,
-                "rendered": "Amsterdam, the Netherlands",
+                "rendered": "test 2",
                 "type": "h2",
               },
             ],
