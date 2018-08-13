@@ -1,0 +1,933 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component: HelpBox] should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HelpBox
+    img="open"
+    subtitle="test 2"
+    title="test"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="undefined"
+      >
+        <div
+          className=" undefined undefined"
+        >
+          <div
+            className=" undefined undefined"
+          >
+            <h3
+              className={undefined}
+            >
+              Application procedure
+            </h3>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li>
+                Morbi dapibus sem et magna porta, a cursus justo eleifend.
+              </li>
+              <li>
+                Mauris nec elit sed lacus viverra blandit at ut erat.
+              </li>
+              <li>
+                Aenean sollicitudin lacus vel sem convallis semper.
+              </li>
+            </ul>
+            <a
+              href="/"
+            >
+              Continue Reading
+            </a>
+          </div>
+          <div
+            className=" undefined undefined"
+          >
+            <h3
+              className={undefined}
+            >
+              Got a question?
+            </h3>
+            <strong>
+              Please contact recruitment
+            </strong>
+            <p>
+              T. +31 20 123 456 78 
+              <br />
+              Or 
+              <u>
+                <a
+                  href="mailto:a@a.com"
+                >
+                  send us an email
+                </a>
+              </u>
+            </p>
+          </div>
+        </div>
+      </div>,
+      "className": "
+      undefined  undefined undefined 
+    ",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className=" undefined undefined"
+        >
+          <div
+            className=" undefined undefined"
+          >
+            <h3
+              className={undefined}
+            >
+              Application procedure
+            </h3>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li>
+                Morbi dapibus sem et magna porta, a cursus justo eleifend.
+              </li>
+              <li>
+                Mauris nec elit sed lacus viverra blandit at ut erat.
+              </li>
+              <li>
+                Aenean sollicitudin lacus vel sem convallis semper.
+              </li>
+            </ul>
+            <a
+              href="/"
+            >
+              Continue Reading
+            </a>
+          </div>
+          <div
+            className=" undefined undefined"
+          >
+            <h3
+              className={undefined}
+            >
+              Got a question?
+            </h3>
+            <strong>
+              Please contact recruitment
+            </strong>
+            <p>
+              T. +31 20 123 456 78 
+              <br />
+              Or 
+              <u>
+                <a
+                  href="mailto:a@a.com"
+                >
+                  send us an email
+                </a>
+              </u>
+            </p>
+          </div>
+        </div>,
+        "className": "undefined",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className=" undefined undefined"
+            >
+              <h3
+                className={undefined}
+              >
+                Application procedure
+              </h3>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                  Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                </li>
+                <li>
+                  Mauris nec elit sed lacus viverra blandit at ut erat.
+                </li>
+                <li>
+                  Aenean sollicitudin lacus vel sem convallis semper.
+                </li>
+              </ul>
+              <a
+                href="/"
+              >
+                Continue Reading
+              </a>
+            </div>,
+            <div
+              className=" undefined undefined"
+            >
+              <h3
+                className={undefined}
+              >
+                Got a question?
+              </h3>
+              <strong>
+                Please contact recruitment
+              </strong>
+              <p>
+                T. +31 20 123 456 78 
+                <br />
+                Or 
+                <u>
+                  <a
+                    href="mailto:a@a.com"
+                  >
+                    send us an email
+                  </a>
+                </u>
+              </p>
+            </div>,
+          ],
+          "className": " undefined undefined",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className={undefined}
+                >
+                  Application procedure
+                </h3>,
+                <ul>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                  <li>
+                    Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                  </li>
+                  <li>
+                    Mauris nec elit sed lacus viverra blandit at ut erat.
+                  </li>
+                  <li>
+                    Aenean sollicitudin lacus vel sem convallis semper.
+                  </li>
+                </ul>,
+                <a
+                  href="/"
+                >
+                  Continue Reading
+                </a>,
+              ],
+              "className": " undefined undefined",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Application procedure",
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": "Application procedure",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>,
+                    <li>
+                      Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                    </li>,
+                    <li>
+                      Mauris nec elit sed lacus viverra blandit at ut erat.
+                    </li>,
+                    <li>
+                      Aenean sollicitudin lacus vel sem convallis semper.
+                    </li>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    },
+                    "ref": null,
+                    "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Morbi dapibus sem et magna porta, a cursus justo eleifend.",
+                    },
+                    "ref": null,
+                    "rendered": "Morbi dapibus sem et magna porta, a cursus justo eleifend.",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Mauris nec elit sed lacus viverra blandit at ut erat.",
+                    },
+                    "ref": null,
+                    "rendered": "Mauris nec elit sed lacus viverra blandit at ut erat.",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Aenean sollicitudin lacus vel sem convallis semper.",
+                    },
+                    "ref": null,
+                    "rendered": "Aenean sollicitudin lacus vel sem convallis semper.",
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Continue Reading",
+                  "href": "/",
+                },
+                "ref": null,
+                "rendered": "Continue Reading",
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className={undefined}
+                >
+                  Got a question?
+                </h3>,
+                <strong>
+                  Please contact recruitment
+                </strong>,
+                <p>
+                  T. +31 20 123 456 78 
+                  <br />
+                  Or 
+                  <u>
+                    <a
+                      href="mailto:a@a.com"
+                    >
+                      send us an email
+                    </a>
+                  </u>
+                </p>,
+              ],
+              "className": " undefined undefined",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Got a question?",
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": "Got a question?",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Please contact recruitment",
+                },
+                "ref": null,
+                "rendered": "Please contact recruitment",
+                "type": "strong",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "T. +31 20 123 456 78 ",
+                    <br />,
+                    "Or ",
+                    <u>
+                      <a
+                        href="mailto:a@a.com"
+                      >
+                        send us an email
+                      </a>
+                    </u>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "T. +31 20 123 456 78 ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  "Or ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="mailto:a@a.com"
+                      >
+                        send us an email
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "send us an email",
+                        "href": "mailto:a@a.com",
+                      },
+                      "ref": null,
+                      "rendered": "send us an email",
+                      "type": "a",
+                    },
+                    "type": "u",
+                  },
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "aside",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="undefined"
+        >
+          <div
+            className=" undefined undefined"
+          >
+            <div
+              className=" undefined undefined"
+            >
+              <h3
+                className={undefined}
+              >
+                Application procedure
+              </h3>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                  Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                </li>
+                <li>
+                  Mauris nec elit sed lacus viverra blandit at ut erat.
+                </li>
+                <li>
+                  Aenean sollicitudin lacus vel sem convallis semper.
+                </li>
+              </ul>
+              <a
+                href="/"
+              >
+                Continue Reading
+              </a>
+            </div>
+            <div
+              className=" undefined undefined"
+            >
+              <h3
+                className={undefined}
+              >
+                Got a question?
+              </h3>
+              <strong>
+                Please contact recruitment
+              </strong>
+              <p>
+                T. +31 20 123 456 78 
+                <br />
+                Or 
+                <u>
+                  <a
+                    href="mailto:a@a.com"
+                  >
+                    send us an email
+                  </a>
+                </u>
+              </p>
+            </div>
+          </div>
+        </div>,
+        "className": "
+      undefined  undefined undefined 
+    ",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className=" undefined undefined"
+          >
+            <div
+              className=" undefined undefined"
+            >
+              <h3
+                className={undefined}
+              >
+                Application procedure
+              </h3>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                  Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                </li>
+                <li>
+                  Mauris nec elit sed lacus viverra blandit at ut erat.
+                </li>
+                <li>
+                  Aenean sollicitudin lacus vel sem convallis semper.
+                </li>
+              </ul>
+              <a
+                href="/"
+              >
+                Continue Reading
+              </a>
+            </div>
+            <div
+              className=" undefined undefined"
+            >
+              <h3
+                className={undefined}
+              >
+                Got a question?
+              </h3>
+              <strong>
+                Please contact recruitment
+              </strong>
+              <p>
+                T. +31 20 123 456 78 
+                <br />
+                Or 
+                <u>
+                  <a
+                    href="mailto:a@a.com"
+                  >
+                    send us an email
+                  </a>
+                </u>
+              </p>
+            </div>
+          </div>,
+          "className": "undefined",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className=" undefined undefined"
+              >
+                <h3
+                  className={undefined}
+                >
+                  Application procedure
+                </h3>
+                <ul>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                  <li>
+                    Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                  </li>
+                  <li>
+                    Mauris nec elit sed lacus viverra blandit at ut erat.
+                  </li>
+                  <li>
+                    Aenean sollicitudin lacus vel sem convallis semper.
+                  </li>
+                </ul>
+                <a
+                  href="/"
+                >
+                  Continue Reading
+                </a>
+              </div>,
+              <div
+                className=" undefined undefined"
+              >
+                <h3
+                  className={undefined}
+                >
+                  Got a question?
+                </h3>
+                <strong>
+                  Please contact recruitment
+                </strong>
+                <p>
+                  T. +31 20 123 456 78 
+                  <br />
+                  Or 
+                  <u>
+                    <a
+                      href="mailto:a@a.com"
+                    >
+                      send us an email
+                    </a>
+                  </u>
+                </p>
+              </div>,
+            ],
+            "className": " undefined undefined",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className={undefined}
+                  >
+                    Application procedure
+                  </h3>,
+                  <ul>
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>
+                    <li>
+                      Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                    </li>
+                    <li>
+                      Mauris nec elit sed lacus viverra blandit at ut erat.
+                    </li>
+                    <li>
+                      Aenean sollicitudin lacus vel sem convallis semper.
+                    </li>
+                  </ul>,
+                  <a
+                    href="/"
+                  >
+                    Continue Reading
+                  </a>,
+                ],
+                "className": " undefined undefined",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Application procedure",
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Application procedure",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </li>,
+                      <li>
+                        Morbi dapibus sem et magna porta, a cursus justo eleifend.
+                      </li>,
+                      <li>
+                        Mauris nec elit sed lacus viverra blandit at ut erat.
+                      </li>,
+                      <li>
+                        Aenean sollicitudin lacus vel sem convallis semper.
+                      </li>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      },
+                      "ref": null,
+                      "rendered": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Morbi dapibus sem et magna porta, a cursus justo eleifend.",
+                      },
+                      "ref": null,
+                      "rendered": "Morbi dapibus sem et magna porta, a cursus justo eleifend.",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Mauris nec elit sed lacus viverra blandit at ut erat.",
+                      },
+                      "ref": null,
+                      "rendered": "Mauris nec elit sed lacus viverra blandit at ut erat.",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Aenean sollicitudin lacus vel sem convallis semper.",
+                      },
+                      "ref": null,
+                      "rendered": "Aenean sollicitudin lacus vel sem convallis semper.",
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Continue Reading",
+                    "href": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Continue Reading",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className={undefined}
+                  >
+                    Got a question?
+                  </h3>,
+                  <strong>
+                    Please contact recruitment
+                  </strong>,
+                  <p>
+                    T. +31 20 123 456 78 
+                    <br />
+                    Or 
+                    <u>
+                      <a
+                        href="mailto:a@a.com"
+                      >
+                        send us an email
+                      </a>
+                    </u>
+                  </p>,
+                ],
+                "className": " undefined undefined",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Got a question?",
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Got a question?",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Please contact recruitment",
+                  },
+                  "ref": null,
+                  "rendered": "Please contact recruitment",
+                  "type": "strong",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "T. +31 20 123 456 78 ",
+                      <br />,
+                      "Or ",
+                      <u>
+                        <a
+                          href="mailto:a@a.com"
+                        >
+                          send us an email
+                        </a>
+                      </u>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "T. +31 20 123 456 78 ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    "Or ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="mailto:a@a.com"
+                        >
+                          send us an email
+                        </a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "send us an email",
+                          "href": "mailto:a@a.com",
+                        },
+                        "ref": null,
+                        "rendered": "send us an email",
+                        "type": "a",
+                      },
+                      "type": "u",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "aside",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

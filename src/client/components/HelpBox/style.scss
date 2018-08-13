@@ -5,11 +5,24 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: #666;
   &--bg {
     background-image: url('../../../assets/img/bg-help-box.png');
   }
   &__content {
+    ul {
+      padding: 0 0px 0 14px;
+      margin: 0 0 1rem 0;
+    }
+    li {
+      margin: 2px;
+      font-size: 13px;
+      line-height: 20px;
+    }
     background-color: #F4F4F5;
     margin: 66px auto;
+    &__col{
+      padding: 30px;
+    }
   }
 }

@@ -8,11 +8,13 @@ body {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: #aaa;
 }
 .container {
   max-width: $max_width_container;
   margin: 0 auto;
+  padding: 0 ($gutter * 2)+px;
 }
 
 .icon{
@@ -82,9 +84,12 @@ a {
     margin: 56px 0;
   }
   &--box {
-    font-size: 20px;
+    font-size: 30px;
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $color_primary;
   }
 }
 // grid
