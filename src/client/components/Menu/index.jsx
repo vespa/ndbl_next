@@ -6,14 +6,14 @@ import SearchBox from '../SearchBox';
 import MessageBox from '../MessageBox';
 
 
-const MenuOptions = () => (
+export const MenuOptions = () => (
   <React.Fragment>
     <MenuItem href="/" text="Home" />
     <MenuItem href="/about" text="About" />
   </React.Fragment>
 );
 
-const Logo = () => (
+export const Logo = () => (
   <div
     className={`
       ${css['main-menu__logo']}
@@ -31,7 +31,7 @@ const Logo = () => (
   </div>
 );
 
-const Index = () => (
+const Menu = () => (
   <React.Fragment>
     <nav className={`${css['main-menu']}`}>
       <div className={`${cssMain.col_2}`}>
@@ -70,4 +70,4 @@ const Index = () => (
   </React.Fragment>
 );
 
-export default Index;
+export default Menu;

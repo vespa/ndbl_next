@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-
+import 'normalize.css';
 import Menu from '../Menu';
 import Footer from '../Footer';
 
