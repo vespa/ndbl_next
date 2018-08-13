@@ -200,7 +200,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Newsletter",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -213,7 +213,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Instagram",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -226,7 +226,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Twitter",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -239,7 +239,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Tumblr",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -252,7 +252,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Linkedin",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -299,7 +299,7 @@ ShallowWrapper {
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Facebook",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -312,7 +312,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Pinterest",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -325,7 +325,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Youtube",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -338,7 +338,7 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "Google+",
                 "nodeType": "function",
                 "props": Object {
                   "href": "/",
@@ -545,7 +545,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Newsletter",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -558,7 +558,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Instagram",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -571,7 +571,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Twitter",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -584,7 +584,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Tumblr",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -597,7 +597,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Linkedin",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -644,7 +644,7 @@ ShallowWrapper {
               "rendered": Array [
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Facebook",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -657,7 +657,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Pinterest",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -670,7 +670,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Youtube",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",
@@ -683,7 +683,7 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "Google+",
                   "nodeType": "function",
                   "props": Object {
                     "href": "/",

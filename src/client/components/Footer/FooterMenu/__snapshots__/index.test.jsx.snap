@@ -40,9 +40,12 @@ ShallowWrapper {
             <Link
               href="/"
             >
-              Home
+              <a
+                href="/"
+              >
+                Home
+              </a>
             </Link>
-             
           </li>
         </ul>,
       ],
@@ -71,9 +74,12 @@ ShallowWrapper {
               <Link
                 href="/"
               >
-                Home
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
               </Link>
-               
             </li>,
           ],
           "className": undefined,
@@ -85,31 +91,44 @@ ShallowWrapper {
             "key": "Home",
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <Link
+              "children": <Link
+                href="/"
+              >
+                <a
                   href="/"
                 >
                   Home
-                </Link>,
-                " ",
-              ],
+                </a>
+              </Link>,
             },
             "ref": null,
-            "rendered": Array [
-              Object {
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <a
+                  href="/"
+                >
+                  Home
+                </a>,
+                "href": "/",
+              },
+              "ref": null,
+              "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "class",
+                "nodeType": "host",
                 "props": Object {
                   "children": "Home",
                   "href": "/",
                 },
                 "ref": null,
                 "rendered": "Home",
-                "type": [Function],
+                "type": "a",
               },
-              " ",
-            ],
+              "type": [Function],
+            },
             "type": "li",
           },
         ],
@@ -137,9 +156,12 @@ ShallowWrapper {
               <Link
                 href="/"
               >
-                Home
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
               </Link>
-               
             </li>
           </ul>,
         ],
@@ -168,9 +190,12 @@ ShallowWrapper {
                 <Link
                   href="/"
                 >
-                  Home
+                  <a
+                    href="/"
+                  >
+                    Home
+                  </a>
                 </Link>
-                 
               </li>,
             ],
             "className": undefined,
@@ -182,31 +207,44 @@ ShallowWrapper {
               "key": "Home",
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <Link
+                "children": <Link
+                  href="/"
+                >
+                  <a
                     href="/"
                   >
                     Home
-                  </Link>,
-                  " ",
-                ],
+                  </a>
+                </Link>,
               },
               "ref": null,
-              "rendered": Array [
-                Object {
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    href="/"
+                  >
+                    Home
+                  </a>,
+                  "href": "/",
+                },
+                "ref": null,
+                "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "class",
+                  "nodeType": "host",
                   "props": Object {
                     "children": "Home",
                     "href": "/",
                   },
                   "ref": null,
                   "rendered": "Home",
-                  "type": [Function],
+                  "type": "a",
                 },
-                " ",
-              ],
+                "type": [Function],
+              },
               "type": "li",
             },
           ],

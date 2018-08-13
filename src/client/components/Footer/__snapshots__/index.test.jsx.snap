@@ -100,7 +100,7 @@ ShallowWrapper {
           />
         </div>
       </div>,
-      "className": "undefined",
+      "className": "undefined undefined",
     },
     "ref": null,
     "rendered": Object {
@@ -484,7 +484,7 @@ ShallowWrapper {
             />
           </div>
         </div>,
-        "className": "undefined",
+        "className": "undefined undefined",
       },
       "ref": null,
       "rendered": Object {

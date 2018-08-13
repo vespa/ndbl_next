@@ -7,7 +7,7 @@ import FooterMenuSocial from './FooterMenu/FooterMenuSocial';
 
 const Footer = () => {
   return (
-    <div className={`${css.footer}`}>
+    <div className={`${css.footer} ${css.col_12}`}>
       <div className={`${cssMain.container}`}>
         <div className={css.footer__separator} />
         <div className={cssMain.col_3}>

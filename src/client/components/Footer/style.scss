@@ -1,7 +1,8 @@
 .footer {
+  margin-top: 3rem;
   background-color: #fff;
   width: 100%;
-  display: table;
+  float: left;
   padding-bottom: 31px;
   &__separator {
     border-top: 1px solid #eaeaea;

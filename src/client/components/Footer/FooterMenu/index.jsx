@@ -9,7 +9,15 @@ const FooterMenu = ({ title, links }) => {
     <React.Fragment>
       <h3 className={css['footer-menu__title']}>{title}</h3>
       <ul className={css['footer-menu__list']}>
-        {links.map(item => <li key={item.text}><Link href={item.href}>{item.text}</Link> </li>)}
+        {links.map((item) => {
+          return (
+            <li key={item.text}>
+              <Link href={item.href}>
+                <a href={item.href}>{item.text}</a>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </React.Fragment>
   );

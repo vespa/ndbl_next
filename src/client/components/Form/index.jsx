@@ -1,5 +1,6 @@
 import React from 'react';
 import Input from './Input';
+import cssMain from '../../../scss/main.scss';
 import Validation from '../Validation';
 import css from './style.scss';
 /*
@@ -100,32 +101,49 @@ class Form extends React.Component {
 
   render() {
     const { validate } = this.state;
-    const { email, name } = this.state;
+    const { email, name, city } = this.state;
     return (
       <form action="/sent" onSubmit={this._onSubmit} noValidate={validate}>
-        {this._generateInputs([
-          {
-            title: 'Name',
-            name: 'name',
-            type: 'text',
-            required: true,
-            validation: 'no-empty',
-            value: name,
-            Comp: Input,
-          },
-          {
-            title: 'E-mail',
-            name: 'email',
-            type: 'email',
-            required: true,
-            validation: 'e-mail',
-            value: email,
-            Comp: Input,
-          },
-        ])}
-        <button type="submit">
-          send
-        </button>
+        <h3>Personal details * </h3>
+        <div className={`${cssMain.col_6}`}>
+          <div className={`${cssMain.col_12}`}>
+            {this._generateInputs([
+              {
+                title: 'Name',
+                name: 'name',
+                type: 'text',
+                required: true,
+                validation: 'no-empty',
+                value: name,
+                Comp: Input,
+              },
+              {
+                title: 'E-mail',
+                name: 'email',
+                type: 'email',
+                required: true,
+                validation: 'e-mail',
+                value: email,
+                Comp: Input,
+              },
+              {
+                title: 'City',
+                name: 'city',
+                type: 'text',
+                required: true,
+                validation: 'no-empty',
+                value: city,
+                Comp: Input,
+              },
+            ])}
+            <h3>Your motiation</h3>
+          </div>
+        </div>
+        <div className={`${cssMain.col_12}`}>
+          <button type="submit">
+            send
+          </button>
+        </div>
       </form>
     );
   }

@@ -17,7 +17,7 @@ const FooterMenuSocial = ({ title }) => {
             { text: 'Twitter', icon: 'twitter', href: '/' },
             { text: 'Tumblr', icon: 'tumblr', href: '/' },
             { text: 'Linkedin', icon: 'linkedin', href: '/' },
-          ].map(item => <FooterMenuSocialItem {...item} />)
+          ].map(item => <FooterMenuSocialItem key={item.text} {...item} />)
           }
         </ul>
         <ul className={`${cssMain.col_6} ${css['footer-menu__list']}}`}>
@@ -26,7 +26,7 @@ const FooterMenuSocial = ({ title }) => {
             { text: 'Pinterest', icon: 'pinterest', href: '/' },
             { text: 'Youtube', icon: 'youtube', href: '/' },
             { text: 'Google+', icon: 'google', href: '/' },
-          ].map(item => <FooterMenuSocialItem {...item} />)
+          ].map(item => <FooterMenuSocialItem key={item.text} {...item} />)
           }
         </ul>
       </div>
