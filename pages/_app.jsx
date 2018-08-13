@@ -1,5 +1,4 @@
 import 'babel-polyfill';
-import 'normalize.css';
 import App, { Container } from 'next/app';
 import React from 'react';
 import '../src/scss/main.scss';

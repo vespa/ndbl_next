@@ -25,7 +25,7 @@ const Index = () => (
     </div>
     <div className={cssMain.col_6}>
       <MenuItem href="/" text="Home" />
-      <MenuItem href="/test" text="test" />
+      <MenuItem href="/about" text="About" />
     </div>
     <div className={cssMain.col_3}>
       <SearchBox />
