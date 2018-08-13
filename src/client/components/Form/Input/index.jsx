@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import style from './style.scss';
+import css from './style.scss';
+import cssMain from '../../../../scss/main.scss';
 /* eslint-env browser */
-
 
 const Input = ({
   title,
@@ -13,9 +13,10 @@ const Input = ({
   value,
   onChange,
   children,
+  onBlur,
 }) => {
   return (
-    <Fragment>
+    <div className={` ${cssMain.col_12}`}>
       <label htmlFor={name}>
         <span style={{ display: 'none' }}>
           {title}
@@ -28,13 +29,14 @@ const Input = ({
           title={title}
           placeholder={title}
           validation={validation}
-          className={` ${style.input} inp inp-${name}`}
+          className={` ${cssMain.col_12} ${css.input} inp inp-${name}`}
           value={value}
           onChange={onChange}
+          onBlur={onBlur}
         />
         {children}
       </label>
-    </Fragment>
+    </div>
   );
 };
 
@@ -46,6 +48,7 @@ Input.propTypes = {
   validation: PropTypes.string,
   value: PropTypes.string,
   onChange: PropTypes.func,
+  onBlur: PropTypes.func,
   children: PropTypes.node,
 };
 
@@ -55,5 +58,6 @@ Input.defaultProps = {
   value: '',
   children: <span />,
   onChange: () => {},
+  onBlur: () => {},
 };
 export default Input;

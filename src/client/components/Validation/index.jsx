@@ -5,6 +5,7 @@ class Validation extends React.Component {
   static messages = {
     'no-empty': 'can not be empty',
     'e-mail': 'is not filled correctly',
+    'dutch-zip': 'is not filled correctly',
   }
 
   getMessage(type) {
@@ -19,6 +20,10 @@ class Validation extends React.Component {
       },
       'e-mail': () => {
         const rule = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return rule.test(field.value);
+      },
+      'dutch-zip': () => {
+        const rule = /^[1-9][0-9]{3} ?(?!sa|sd|ss)[a-z]{2}$/i;
         return rule.test(field.value);
       },
     };

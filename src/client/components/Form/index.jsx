@@ -1,6 +1,5 @@
 import React from 'react';
 import Input from './Input';
-import cssMain from '../../../scss/main.scss';
 import Validation from '../Validation';
 import css from './style.scss';
 /*
@@ -23,8 +22,8 @@ class Form extends React.Component {
     };
     this._generateInputs = this._generateInputs.bind(this);
     this._updateFieldValue = this._updateFieldValue.bind(this);
-    this._createFileds = this._createFileds.bind(this);
     this._onSubmit = this._onSubmit.bind(this);
+    this._blurCheckValidation = this._blurCheckValidation.bind(this);
   }
 
   componentDidMount() {
@@ -70,30 +69,36 @@ class Form extends React.Component {
     // console.log(send);
   }
 
-  _createFileds() {
-
+  _blurCheckValidation(e) {
+    const item = (e.target);
+    if (!Validation.check(item)) {
+      this._addErrorClass(item);
+    }
   }
 
-  _generateInputs(items) {
+  _generateInputs(division, items) {
     return items.map((item) => {
       const {
         title, name, type, required = false, validation = '', Comp, value,
       } = item;
       return (
         <React.Fragment key={name}>
-          <Comp
-            title={title}
-            name={name}
-            type={type}
-            required={required}
-            validation={validation}
-            value={value}
-            onChange={this._updateFieldValue(name)}
-          >
-            <div className={css['form__input__error-message']}>
-              {title} {Validation.getMessage(validation)}
-            </div>
-          </Comp>
+          <span className={`${division}`}>
+            <Comp
+              title={title}
+              name={name}
+              type={type}
+              required={required}
+              validation={validation}
+              value={value}
+              onChange={this._updateFieldValue(name)}
+              onBlur={this._blurCheckValidation}
+            >
+              <div className={css['form__input__error-message']}>
+                {title} {Validation.getMessage(validation)}
+              </div>
+            </Comp>
+          </span>
         </React.Fragment>
       );
     });
@@ -101,43 +106,104 @@ class Form extends React.Component {
 
   render() {
     const { validate } = this.state;
-    const { email, name, city } = this.state;
+    const {
+      email,
+      name,
+      lastName,
+      sex,
+      birthday,
+      address,
+      addressNumber,
+      addressZip,
+    } = this.state;
     return (
       <form action="/sent" onSubmit={this._onSubmit} noValidate={validate}>
+
         <h3>Personal details * </h3>
-        <div className={`${cssMain.col_6}`}>
-          <div className={`${cssMain.col_12}`}>
-            {this._generateInputs([
-              {
-                title: 'Name',
-                name: 'name',
-                type: 'text',
-                required: true,
-                validation: 'no-empty',
-                value: name,
-                Comp: Input,
-              },
-              {
-                title: 'E-mail',
-                name: 'email',
-                type: 'email',
-                required: true,
-                validation: 'e-mail',
-                value: email,
-                Comp: Input,
-              },
-              {
-                title: 'City',
-                name: 'city',
-                type: 'text',
-                required: true,
-                validation: 'no-empty',
-                value: city,
-                Comp: Input,
-              },
-            ])}
-            <h3>Your motiation</h3>
-          </div>
+        <div className={`${cssMain.col_12}`}>
+          {this._generateInputs(`${cssMain.col_6} ${css.form__inp}`, [
+            {
+              title: 'Name',
+              name: 'name',
+              type: 'text',
+              required: true,
+              validation: 'no-empty',
+              value: name,
+              Comp: Input,
+            },
+            {
+              title: 'Last name',
+              name: 'lastName',
+              type: 'text',
+              required: true,
+              validation: 'no-empty',
+              value: lastName,
+              Comp: Input,
+            },
+          ])}
+        </div>
+        <div className={`${cssMain.col_12}`}>
+          {this._generateInputs(`${cssMain.col_4} ${css['form__inp--multi']}`, [
+            {
+              title: 'Sex',
+              name: 'sex',
+              type: 'text',
+              required: true,
+              validation: 'no-empty',
+              value: sex,
+              Comp: Input,
+            },
+            {
+              title: 'birthday',
+              name: 'birthday',
+              type: 'text',
+              required: true,
+              validation: 'no-empty',
+              value: birthday,
+              Comp: Input,
+            },
+            {
+              title: 'E-mail',
+              name: 'email',
+              type: 'email',
+              required: true,
+              validation: 'e-mail',
+              value: email,
+              Comp: Input,
+            },
+
+          ])}
+        </div>
+        <div className={`${cssMain.col_12}`}>
+          {this._generateInputs(`${cssMain.col_4} ${css['form__inp--multi']}`, [
+            {
+              title: 'Adress',
+              name: 'address',
+              type: 'text',
+              required: true,
+              validation: 'no-empty',
+              value: address,
+              Comp: Input,
+            },
+            {
+              title: 'Number',
+              name: 'addressNumber',
+              type: 'text',
+              required: true,
+              validation: 'no-empty',
+              value: addressNumber,
+              Comp: Input,
+            },
+            {
+              title: 'ZIP',
+              name: 'addressZip',
+              type: 'text',
+              required: true,
+              validation: 'dutch-zip',
+              value: addressZip,
+              Comp: Input,
+            },
+          ])}
         </div>
         <div className={`${cssMain.col_12}`}>
           <button type="submit">

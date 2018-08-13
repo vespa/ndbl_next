@@ -8,6 +8,35 @@
     }
     &__error-message {
       display: none;
+      position: absolute;
+      bottom:0;
+      text-indent: 4px;
+    }
+  }
+  &__inp{
+    padding: 0 20px 0 0;
+    position: relative;
+    height: 4.5rem;
+    margin-bottom: .5rem;
+    &:nth-child(even) {
+      padding: 0  0 0 20px;
+    }
+    &--date {
+      width: 100% !important;
+      border:1px solid red;
+
+    }
+    &--multi {
+      padding: 0 20px;
+      position: relative;
+      height: 4.5rem;
+      margin-bottom: .5rem;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
     }
   }
 }
