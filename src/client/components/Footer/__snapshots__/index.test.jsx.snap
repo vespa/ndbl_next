@@ -17,10 +17,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <div
+        className="undefined"
+      >
         <div
           className={undefined}
-        />,
+        />
         <div
           className={undefined}
         >
@@ -47,7 +49,7 @@ ShallowWrapper {
             }
             title="jobs at"
           />
-        </div>,
+        </div>
         <div
           className={undefined}
         >
@@ -74,14 +76,14 @@ ShallowWrapper {
             }
             title="Information"
           />
-        </div>,
+        </div>
         <div
           className={undefined}
         >
           <FooterMenuSocial
             title="Folow Us"
           />
-        </div>,
+        </div>
         <div
           className={undefined}
         >
@@ -96,214 +98,12 @@ ShallowWrapper {
             }
             title="Job Alert"
           />
-        </div>,
-      ],
-      "className": undefined,
+        </div>
+      </div>,
+      "className": "undefined",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <FooterMenu
-            links={
-              Array [
-                Object {
-                  "href": "/",
-                  "text": "Home",
-                },
-                Object {
-                  "href": "/",
-                  "text": "Jobs",
-                },
-                Object {
-                  "href": "/",
-                  "text": "About",
-                },
-                Object {
-                  "href": "/",
-                  "text": "Departament",
-                },
-              ]
-            }
-            title="jobs at"
-          />,
-          "className": undefined,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "links": Array [
-              Object {
-                "href": "/",
-                "text": "Home",
-              },
-              Object {
-                "href": "/",
-                "text": "Jobs",
-              },
-              Object {
-                "href": "/",
-                "text": "About",
-              },
-              Object {
-                "href": "/",
-                "text": "Departament",
-              },
-            ],
-            "title": "jobs at",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <FooterMenu
-            links={
-              Array [
-                Object {
-                  "href": "/",
-                  "text": "F.A.Q.",
-                },
-                Object {
-                  "href": "/",
-                  "text": "Application process",
-                },
-                Object {
-                  "href": "/",
-                  "text": "Privacy policy",
-                },
-                Object {
-                  "href": "/",
-                  "text": "Contact",
-                },
-              ]
-            }
-            title="Information"
-          />,
-          "className": undefined,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "links": Array [
-              Object {
-                "href": "/",
-                "text": "F.A.Q.",
-              },
-              Object {
-                "href": "/",
-                "text": "Application process",
-              },
-              Object {
-                "href": "/",
-                "text": "Privacy policy",
-              },
-              Object {
-                "href": "/",
-                "text": "Contact",
-              },
-            ],
-            "title": "Information",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <FooterMenuSocial
-            title="Folow Us"
-          />,
-          "className": undefined,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "title": "Folow Us",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <FooterMenu
-            links={
-              Array [
-                Object {
-                  "href": "/",
-                  "text": "Subscribe to your job alert",
-                },
-              ]
-            }
-            title="Job Alert"
-          />,
-          "className": undefined,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "links": Array [
-              Object {
-                "href": "/",
-                "text": "Subscribe to your job alert",
-              },
-            ],
-            "title": "Job Alert",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
@@ -389,7 +189,7 @@ ShallowWrapper {
             />
           </div>,
         ],
-        "className": undefined,
+        "className": "undefined",
       },
       "ref": null,
       "rendered": Array [
@@ -591,6 +391,392 @@ ShallowWrapper {
           "type": "div",
         },
       ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="undefined"
+        >
+          <div
+            className={undefined}
+          />
+          <div
+            className={undefined}
+          >
+            <FooterMenu
+              links={
+                Array [
+                  Object {
+                    "href": "/",
+                    "text": "Home",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Jobs",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "About",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Departament",
+                  },
+                ]
+              }
+              title="jobs at"
+            />
+          </div>
+          <div
+            className={undefined}
+          >
+            <FooterMenu
+              links={
+                Array [
+                  Object {
+                    "href": "/",
+                    "text": "F.A.Q.",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Application process",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Privacy policy",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Contact",
+                  },
+                ]
+              }
+              title="Information"
+            />
+          </div>
+          <div
+            className={undefined}
+          >
+            <FooterMenuSocial
+              title="Folow Us"
+            />
+          </div>
+          <div
+            className={undefined}
+          >
+            <FooterMenu
+              links={
+                Array [
+                  Object {
+                    "href": "/",
+                    "text": "Subscribe to your job alert",
+                  },
+                ]
+              }
+              title="Job Alert"
+            />
+          </div>
+        </div>,
+        "className": "undefined",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className={undefined}
+            />,
+            <div
+              className={undefined}
+            >
+              <FooterMenu
+                links={
+                  Array [
+                    Object {
+                      "href": "/",
+                      "text": "Home",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Jobs",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "About",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Departament",
+                    },
+                  ]
+                }
+                title="jobs at"
+              />
+            </div>,
+            <div
+              className={undefined}
+            >
+              <FooterMenu
+                links={
+                  Array [
+                    Object {
+                      "href": "/",
+                      "text": "F.A.Q.",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Application process",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Privacy policy",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Contact",
+                    },
+                  ]
+                }
+                title="Information"
+              />
+            </div>,
+            <div
+              className={undefined}
+            >
+              <FooterMenuSocial
+                title="Folow Us"
+              />
+            </div>,
+            <div
+              className={undefined}
+            >
+              <FooterMenu
+                links={
+                  Array [
+                    Object {
+                      "href": "/",
+                      "text": "Subscribe to your job alert",
+                    },
+                  ]
+                }
+                title="Job Alert"
+              />
+            </div>,
+          ],
+          "className": "undefined",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FooterMenu
+                links={
+                  Array [
+                    Object {
+                      "href": "/",
+                      "text": "Home",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Jobs",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "About",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Departament",
+                    },
+                  ]
+                }
+                title="jobs at"
+              />,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "links": Array [
+                  Object {
+                    "href": "/",
+                    "text": "Home",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Jobs",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "About",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Departament",
+                  },
+                ],
+                "title": "jobs at",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FooterMenu
+                links={
+                  Array [
+                    Object {
+                      "href": "/",
+                      "text": "F.A.Q.",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Application process",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Privacy policy",
+                    },
+                    Object {
+                      "href": "/",
+                      "text": "Contact",
+                    },
+                  ]
+                }
+                title="Information"
+              />,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "links": Array [
+                  Object {
+                    "href": "/",
+                    "text": "F.A.Q.",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Application process",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Privacy policy",
+                  },
+                  Object {
+                    "href": "/",
+                    "text": "Contact",
+                  },
+                ],
+                "title": "Information",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FooterMenuSocial
+                title="Folow Us"
+              />,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "title": "Folow Us",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FooterMenu
+                links={
+                  Array [
+                    Object {
+                      "href": "/",
+                      "text": "Subscribe to your job alert",
+                    },
+                  ]
+                }
+                title="Job Alert"
+              />,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "links": Array [
+                  Object {
+                    "href": "/",
+                    "text": "Subscribe to your job alert",
+                  },
+                ],
+                "title": "Job Alert",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
       "type": "div",
     },
   ],

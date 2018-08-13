@@ -1,18 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[Component: FooterMenu] should match snapshot 1`] = `
+exports[`[Component: FooterMenuSocial] should match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <FooterMenuSocial
-    links={
-      Array [
-        Object {
-          "href": "/",
-          "text": "Home",
-        },
-      ]
-    }
     title="test"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -33,20 +25,63 @@ ShallowWrapper {
         >
           test
         </h3>,
-        <ul
+        <div
           className={undefined}
         >
           <ul
-            className={undefined}
+            className="undefined undefined}"
           >
-            teste
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="newsletter"
+              text="Newsletter"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="instagram"
+              text="Instagram"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="twitter"
+              text="Twitter"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="tumblr"
+              text="Tumblr"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="linkedin"
+              text="Linkedin"
+            />
           </ul>
           <ul
-            className={undefined}
+            className="undefined undefined}"
           >
-            teste
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="facebook"
+              text="Facebook"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="pinterest"
+              text="Pinterest"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="youtube"
+              text="Youtube"
+            />
+            <FooterMenuSocialSocialItem
+              href="/"
+              icon="google"
+              text="Google+"
+            />
           </ul>
-        </ul>,
+        </div>,
       ],
     },
     "ref": null,
@@ -70,14 +105,57 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ul
-              className={undefined}
+              className="undefined undefined}"
             >
-              teste
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="newsletter"
+                text="Newsletter"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="instagram"
+                text="Instagram"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="twitter"
+                text="Twitter"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="tumblr"
+                text="Tumblr"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="linkedin"
+                text="Linkedin"
+              />
             </ul>,
             <ul
-              className={undefined}
+              className="undefined undefined}"
             >
-              teste
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="facebook"
+                text="Facebook"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="pinterest"
+                text="Pinterest"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="youtube"
+                text="Youtube"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="google"
+                text="Google+"
+              />
             </ul>,
           ],
           "className": undefined,
@@ -89,11 +167,103 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "teste",
-              "className": undefined,
+              "children": Array [
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="newsletter"
+                  text="Newsletter"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="instagram"
+                  text="Instagram"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="twitter"
+                  text="Twitter"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="tumblr"
+                  text="Tumblr"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="linkedin"
+                  text="Linkedin"
+                />,
+              ],
+              "className": "undefined undefined}",
             },
             "ref": null,
-            "rendered": "teste",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "newsletter",
+                  "text": "Newsletter",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "instagram",
+                  "text": "Instagram",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "twitter",
+                  "text": "Twitter",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "tumblr",
+                  "text": "Tumblr",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "linkedin",
+                  "text": "Linkedin",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
             "type": "ul",
           },
           Object {
@@ -101,15 +271,89 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "teste",
-              "className": undefined,
+              "children": Array [
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="facebook"
+                  text="Facebook"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="pinterest"
+                  text="Pinterest"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="youtube"
+                  text="Youtube"
+                />,
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="google"
+                  text="Google+"
+                />,
+              ],
+              "className": "undefined undefined}",
             },
             "ref": null,
-            "rendered": "teste",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "facebook",
+                  "text": "Facebook",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "pinterest",
+                  "text": "Pinterest",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "youtube",
+                  "text": "Youtube",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "href": "/",
+                  "icon": "google",
+                  "text": "Google+",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
             "type": "ul",
           },
         ],
-        "type": "ul",
+        "type": "div",
       },
     ],
     "type": Symbol(react.fragment),
@@ -126,20 +370,63 @@ ShallowWrapper {
           >
             test
           </h3>,
-          <ul
+          <div
             className={undefined}
           >
             <ul
-              className={undefined}
+              className="undefined undefined}"
             >
-              teste
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="newsletter"
+                text="Newsletter"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="instagram"
+                text="Instagram"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="twitter"
+                text="Twitter"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="tumblr"
+                text="Tumblr"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="linkedin"
+                text="Linkedin"
+              />
             </ul>
             <ul
-              className={undefined}
+              className="undefined undefined}"
             >
-              teste
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="facebook"
+                text="Facebook"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="pinterest"
+                text="Pinterest"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="youtube"
+                text="Youtube"
+              />
+              <FooterMenuSocialSocialItem
+                href="/"
+                icon="google"
+                text="Google+"
+              />
             </ul>
-          </ul>,
+          </div>,
         ],
       },
       "ref": null,
@@ -163,14 +450,57 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <ul
-                className={undefined}
+                className="undefined undefined}"
               >
-                teste
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="newsletter"
+                  text="Newsletter"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="instagram"
+                  text="Instagram"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="twitter"
+                  text="Twitter"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="tumblr"
+                  text="Tumblr"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="linkedin"
+                  text="Linkedin"
+                />
               </ul>,
               <ul
-                className={undefined}
+                className="undefined undefined}"
               >
-                teste
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="facebook"
+                  text="Facebook"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="pinterest"
+                  text="Pinterest"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="youtube"
+                  text="Youtube"
+                />
+                <FooterMenuSocialSocialItem
+                  href="/"
+                  icon="google"
+                  text="Google+"
+                />
               </ul>,
             ],
             "className": undefined,
@@ -182,11 +512,103 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "teste",
-                "className": undefined,
+                "children": Array [
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="newsletter"
+                    text="Newsletter"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="instagram"
+                    text="Instagram"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="twitter"
+                    text="Twitter"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="tumblr"
+                    text="Tumblr"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="linkedin"
+                    text="Linkedin"
+                  />,
+                ],
+                "className": "undefined undefined}",
               },
               "ref": null,
-              "rendered": "teste",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "newsletter",
+                    "text": "Newsletter",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "instagram",
+                    "text": "Instagram",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "twitter",
+                    "text": "Twitter",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "tumblr",
+                    "text": "Tumblr",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "linkedin",
+                    "text": "Linkedin",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
               "type": "ul",
             },
             Object {
@@ -194,15 +616,89 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "teste",
-                "className": undefined,
+                "children": Array [
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="facebook"
+                    text="Facebook"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="pinterest"
+                    text="Pinterest"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="youtube"
+                    text="Youtube"
+                  />,
+                  <FooterMenuSocialSocialItem
+                    href="/"
+                    icon="google"
+                    text="Google+"
+                  />,
+                ],
+                "className": "undefined undefined}",
               },
               "ref": null,
-              "rendered": "teste",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "facebook",
+                    "text": "Facebook",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "pinterest",
+                    "text": "Pinterest",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "youtube",
+                    "text": "Youtube",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "href": "/",
+                    "icon": "google",
+                    "text": "Google+",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
               "type": "ul",
             },
           ],
-          "type": "ul",
+          "type": "div",
         },
       ],
       "type": Symbol(react.fragment),

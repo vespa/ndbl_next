@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component: FooterMenuSocialItem] should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FooterMenuSocialSocialItem
+    title="test"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="undefined undefined undefined"
+        >
+           
+           
+        </span>,
+        <a
+          href={undefined}
+        >
+           
+           
+        </a>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            " ",
+            undefined,
+            " ",
+          ],
+          "className": "undefined undefined undefined",
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          undefined,
+          " ",
+        ],
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            " ",
+            undefined,
+            " ",
+          ],
+          "href": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          undefined,
+          " ",
+        ],
+        "type": "a",
+      },
+    ],
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="undefined undefined undefined"
+          >
+             
+             
+          </span>,
+          <a
+            href={undefined}
+          >
+             
+             
+          </a>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              " ",
+              undefined,
+              " ",
+            ],
+            "className": "undefined undefined undefined",
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            undefined,
+            " ",
+          ],
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              " ",
+              undefined,
+              " ",
+            ],
+            "href": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            undefined,
+            " ",
+          ],
+          "type": "a",
+        },
+      ],
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
