@@ -3,13 +3,17 @@
     text-transform: uppercase;
   }
   &__list {
-    list-style-type: none;
     padding: 0;
     margin: 0;
+    * {
+      list-style-type: none;
+      font-size: 13px;
+    }
     a {
       color: #aaa;
       display: block;
       margin-bottom: 10px;
+      line-height: 16px;
     }
   }
 }

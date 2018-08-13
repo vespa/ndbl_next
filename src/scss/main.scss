@@ -44,8 +44,39 @@ a {
     background-position: -80px -8px;
   }
   &__social{
+    display: block;
+    height: 22px;
+    width: 22px;
+    float: left;
+    margin-right:8px;
+    margin-top: -4px;
+    position: relative;
     &--newsletter {
-      border: '1px solid red'
+      background-position: -8px -48px;
+    }
+    &--instagram {
+      background-position: -8px -72px;
+    }
+    &--twitter {
+      background-position: -8px -96px;
+    }
+    &--tumblr {
+      background-position: -8px -120px;
+    }
+    &--linkedin {
+      background-position: -8px -144px;
+    }
+    &--facebook {
+      background-position: -34px -49px;
+    }
+    &--pinterest {
+      background-position: -34px -73px;
+    }
+    &--youtube {
+      background-position: -34px -97px;
+    }
+    &--google {
+      background-position: -34px -121px;
     }
   }
 }
