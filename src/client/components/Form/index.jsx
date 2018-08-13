@@ -1,5 +1,8 @@
 import React from 'react';
+import Router from 'next/router';
+import fetch from 'isomorphic-unfetch';
 import Input from './Input';
+import cssMain from '../../../scss/main.scss';
 import Validation from '../Validation';
 import css from './style.scss';
 /*
@@ -14,6 +17,8 @@ import css from './style.scss';
   send a copy
   Apply button
 */
+
+
 class Form extends React.Component {
   constructor(args) {
     super(args);
@@ -55,18 +60,35 @@ class Form extends React.Component {
     item.setAttribute('class', `${currentClass} ${errorClass}`);
   }
 
+  _submit() {
+    fetch('http://localhost:5000/api/contact', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        firstParam: 'yourValue',
+        secondParam: 'yourOtherValue',
+      }),
+    });
+  }
+
   _onSubmit(e) {
     e.preventDefault();
     const items = e.target.querySelectorAll('[required]');
-    // let send = true;
+    let send = true;
     [].slice.call(items).map((item) => {
       if (!Validation.check(item)) {
         this._addErrorClass(item);
-        // send = false;
+        send = false;
       }
       return item;
     });
-    // console.log(send);
+    if (send) {
+      // const data = new FormData(e.target);
+      // console.log(data);
+    }
   }
 
   _blurCheckValidation(e) {
@@ -143,7 +165,7 @@ class Form extends React.Component {
           ])}
         </div>
         <div className={`${cssMain.col_12}`}>
-          {this._generateInputs(`${cssMain.col_4} ${css['form__inp--multi']}`, [
+          {this._generateInputs(`${cssMain.col_4} col ${css['form__inp--multi']}`, [
             {
               title: 'Sex',
               name: 'sex',

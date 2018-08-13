@@ -10,6 +10,12 @@ const port = 5000;
 app.prepare().then(() => {
   const server = express();
 
+  server.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+  });
+
   server.use(bodyParser.json());
   // server.get('*', (req, res) => {
   //   return handle(req, res);

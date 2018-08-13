@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Input
     name="name"
+    onBlur={[Function]}
     onChange={[Function]}
     required={true}
     title="Name"
@@ -25,7 +26,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "host",
     "props": Object {
       "children": <label
         htmlFor="name"
@@ -40,9 +41,10 @@ ShallowWrapper {
           Name
         </span>
         <input
-          className=" undefined inp inp-name"
+          className=" undefined undefined inp inp-name"
           id="name"
           name="name"
+          onBlur={[Function]}
           onChange={[Function]}
           placeholder="Name"
           required={true}
@@ -53,6 +55,7 @@ ShallowWrapper {
         />
         <span />
       </label>,
+      "className": " undefined",
     },
     "ref": null,
     "rendered": Object {
@@ -71,9 +74,10 @@ ShallowWrapper {
             Name
           </span>,
           <input
-            className=" undefined inp inp-name"
+            className=" undefined undefined inp inp-name"
             id="name"
             name="name"
+            onBlur={[Function]}
             onChange={[Function]}
             placeholder="Name"
             required={true}
@@ -107,9 +111,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": " undefined inp inp-name",
+            "className": " undefined undefined inp inp-name",
             "id": "name",
             "name": "name",
+            "onBlur": [Function],
             "onChange": [Function],
             "placeholder": "Name",
             "required": true,
@@ -134,13 +139,13 @@ ShallowWrapper {
       ],
       "type": "label",
     },
-    "type": Symbol(react.fragment),
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "host",
       "props": Object {
         "children": <label
           htmlFor="name"
@@ -155,9 +160,10 @@ ShallowWrapper {
             Name
           </span>
           <input
-            className=" undefined inp inp-name"
+            className=" undefined undefined inp inp-name"
             id="name"
             name="name"
+            onBlur={[Function]}
             onChange={[Function]}
             placeholder="Name"
             required={true}
@@ -168,6 +174,7 @@ ShallowWrapper {
           />
           <span />
         </label>,
+        "className": " undefined",
       },
       "ref": null,
       "rendered": Object {
@@ -186,9 +193,10 @@ ShallowWrapper {
               Name
             </span>,
             <input
-              className=" undefined inp inp-name"
+              className=" undefined undefined inp inp-name"
               id="name"
               name="name"
+              onBlur={[Function]}
               onChange={[Function]}
               placeholder="Name"
               required={true}
@@ -222,9 +230,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": " undefined inp inp-name",
+              "className": " undefined undefined inp inp-name",
               "id": "name",
               "name": "name",
+              "onBlur": [Function],
               "onChange": [Function],
               "placeholder": "Name",
               "required": true,
@@ -249,7 +258,7 @@ ShallowWrapper {
         ],
         "type": "label",
       },
-      "type": Symbol(react.fragment),
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

@@ -1,3 +1,6 @@
+
+@import '../../../../scss/mixins.scss';
+
 .footer-menu {
   &__title {
     text-transform: uppercase;
@@ -8,6 +11,17 @@
     * {
       list-style-type: none;
       font-size: 13px;
+      @include mobile() {
+        font-size: 22px;
+      }
+    }
+    li {
+      @include mobile() {
+        padding: 22px 0 9px 0;
+        border-top: 1px solid #eaeaea;
+        font-size: 22px;
+        text-indent: 8px;
+      }
     }
     a {
       color: #aaa;

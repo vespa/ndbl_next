@@ -5,35 +5,69 @@ import MenuItem from './MenuItem';
 import SearchBox from '../SearchBox';
 import MessageBox from '../MessageBox';
 
-const Index = () => (
-  <nav className={`${css['main-menu']}`}>
+
+const MenuOptions = () => (
+  <React.Fragment>
+    <MenuItem href="/" text="Home" />
+    <MenuItem href="/about" text="About" />
+  </React.Fragment>
+);
+
+const Logo = () => (
+  <div
+    className={`
+      ${css['main-menu__logo']}
+    `}
+  >
     <div
       className={`
-        ${cssMain.col_2}
-        ${css['main-menu__logo']}
+        ${css['main-menu__logo__img']}
+        ${cssMain.icon}
+        ${cssMain.icon__logo}
       `}
     >
-      <div
-        className={`
-          ${css['main-menu__logo__img']}
-          ${cssMain.icon}
-          ${cssMain.icon__logo}
-        `}
-      >
-        Logo
+      Logo
+    </div>
+  </div>
+);
+
+const Index = () => (
+  <React.Fragment>
+    <nav className={`${css['main-menu']}`}>
+      <div className={`${cssMain.col_2}`}>
+        <Logo />
       </div>
-    </div>
-    <div className={cssMain.col_6}>
-      <MenuItem href="/" text="Home" />
-      <MenuItem href="/about" text="About" />
-    </div>
-    <div className={cssMain.col_3}>
-      <SearchBox />
-    </div>
-    <div className={cssMain.col_1}>
-      <MessageBox />
-    </div>
-  </nav>
+      <div className={cssMain.col_6}>
+        <MenuOptions />
+      </div>
+      <div className={cssMain.col_3}>
+        <SearchBox />
+      </div>
+      <div className={cssMain.col_1}>
+        <MessageBox />
+      </div>
+    </nav>
+    <nav className={`${css['main-menu-mobile']}`}>
+      <div className={`${cssMain.m_col_4}`}>
+        <button
+          type="button"
+          className={`
+            ${css['main-menu-mobile__button']}
+            ${cssMain.icon}
+            ${cssMain.icon__menu}
+          `}
+        >
+          Menu
+        </button>
+        <div className={`${css['main-menu-mobile__options']}`}>
+          <MenuOptions />
+        </div>
+      </div>
+      <div className={`${cssMain.m_col_4}`}>
+        <Logo />
+      </div>
+    </nav>
+  </React.Fragment>
 );
 
 export default Index;

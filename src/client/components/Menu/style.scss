@@ -1,9 +1,8 @@
 
-@import '../../../scss/_vars.scss';
+@import '../../../scss/mixins.scss';
 
-.main-menu {
+@mixin menu_common() {
   width: 100%;
-  height: 45px;
   background-color: $color_primary;
   text-transform: uppercase;
   font-weight: 700;
@@ -11,6 +10,25 @@
   z-index: 3;
   top: 0;
   overflow: hidden;
+}
+
+@mixin a_common() {
+  text-align: center;
+  transition: all 200ms;
+  color: #fff;
+  &:hover {
+    background-color: #999;
+    color: $color_primary
+  }
+}
+
+.main-menu {
+  height: 45px;
+  @include mobile {
+    display: none;
+  }
+  @include menu_common();
+
   &__logo {
     overflow: hidden;
     height: 52px;
@@ -21,13 +39,43 @@
     }
   }
   a {
-    color: #fff;
     line-height: 3rem;
-    text-align: center;
-    transition: all 200ms;
-    &:hover {
-      background-color: #999;
-      color: $color_primary
+    @include a_common();
+  }
+  &-mobile {
+    display: none;
+    height: 4rem;
+    @include menu_common();
+    @include mobile {
+      display: block;
+    }
+    a {
+      line-height: 4rem;
+      border-bottom: 1px solid #fff;
+      @include a_common();
+    }
+    &__options {
+      border-right: 1px solid #fff;
+      position: fixed;
+      width: 60vw;
+      top: 0;
+      background-color:  $color_primary;
+      margin-left: -60vw;
+      transition: all 300ms;
+      height: 100%;
+    }
+    &__button {
+      background-color: transparent;
+      color: transparent;
+      border: 1px solid #fff;
+      margin: 8px;
+      &:focus {
+        background-color: yellow !important;
+        color: yellow ;
+        & ~ .main-menu-mobile__options {
+          margin-left:0;
+        }
+      }
     }
   }
 }

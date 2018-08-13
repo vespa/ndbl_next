@@ -1,3 +1,11 @@
+
+@import '../../../scss/mixins.scss';
+
+@mixin remove_paddings () {
+  @include mobile {
+    padding: 0;
+  }
+}
 .form{
   &__input {
     &--error {
@@ -18,19 +26,17 @@
     position: relative;
     height: 4.5rem;
     margin-bottom: .5rem;
+    @include remove_paddings();
     &:nth-child(even) {
       padding: 0  0 0 20px;
-    }
-    &--date {
-      width: 100% !important;
-      border:1px solid red;
-
+      @include remove_paddings();
     }
     &--multi {
       padding: 0 20px;
       position: relative;
       height: 4.5rem;
       margin-bottom: .5rem;
+      @include remove_paddings();
       &:first-child {
         padding-left: 0;
       }

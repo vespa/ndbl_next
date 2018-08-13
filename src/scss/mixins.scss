@@ -1,0 +1,15 @@
+@import '_vars.scss';
+
+@mixin mobile {
+  @media only screen and (max-width: $break-mobile) {
+    @content;
+  }
+  
+}
+
+@mixin hide_moblie () {
+  @include mobile {
+    display: none;
+    pointer-events: none
+  }
+}
