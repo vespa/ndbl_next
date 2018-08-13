@@ -43,6 +43,11 @@ a {
     display: block;
     background-position: -80px -8px;
   }
+  &__social{
+    &--newsletter {
+      border: '1px solid red'
+    }
+  }
 }
 .title {
   &--main {

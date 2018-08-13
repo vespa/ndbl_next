@@ -4,7 +4,7 @@ exports[`[Component: FooterMenu] should match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <FooterMenu
+  Symbol(enzyme.__unrendered__): <FooterMenuSocial
     links={
       Array [
         Object {
@@ -36,14 +36,16 @@ ShallowWrapper {
         <ul
           className={undefined}
         >
-          <li>
-            <a
-              href="/"
-            >
-              Home
-            </a>
-             
-          </li>
+          <ul
+            className={undefined}
+          >
+            teste
+          </ul>
+          <ul
+            className={undefined}
+          >
+            teste
+          </ul>
         </ul>,
       ],
     },
@@ -67,14 +69,16 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <li>
-              <a
-                href="/"
-              >
-                Home
-              </a>
-               
-            </li>,
+            <ul
+              className={undefined}
+            >
+              teste
+            </ul>,
+            <ul
+              className={undefined}
+            >
+              teste
+            </ul>,
           ],
           "className": undefined,
         },
@@ -82,35 +86,27 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": "Home",
+            "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <a
-                  href="/"
-                >
-                  Home
-                </a>,
-                " ",
-              ],
+              "children": "teste",
+              "className": undefined,
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Home",
-                  "href": "/",
-                },
-                "ref": null,
-                "rendered": "Home",
-                "type": "a",
-              },
-              " ",
-            ],
-            "type": "li",
+            "rendered": "teste",
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "teste",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "teste",
+            "type": "ul",
           },
         ],
         "type": "ul",
@@ -133,14 +129,16 @@ ShallowWrapper {
           <ul
             className={undefined}
           >
-            <li>
-              <a
-                href="/"
-              >
-                Home
-              </a>
-               
-            </li>
+            <ul
+              className={undefined}
+            >
+              teste
+            </ul>
+            <ul
+              className={undefined}
+            >
+              teste
+            </ul>
           </ul>,
         ],
       },
@@ -164,14 +162,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <li>
-                <a
-                  href="/"
-                >
-                  Home
-                </a>
-                 
-              </li>,
+              <ul
+                className={undefined}
+              >
+                teste
+              </ul>,
+              <ul
+                className={undefined}
+              >
+                teste
+              </ul>,
             ],
             "className": undefined,
           },
@@ -179,35 +179,27 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "Home",
+              "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": Array [
-                  <a
-                    href="/"
-                  >
-                    Home
-                  </a>,
-                  " ",
-                ],
+                "children": "teste",
+                "className": undefined,
               },
               "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": "Home",
-                    "href": "/",
-                  },
-                  "ref": null,
-                  "rendered": "Home",
-                  "type": "a",
-                },
-                " ",
-              ],
-              "type": "li",
+              "rendered": "teste",
+              "type": "ul",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "teste",
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": "teste",
+              "type": "ul",
             },
           ],
           "type": "ul",

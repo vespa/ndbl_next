@@ -2,6 +2,8 @@ import React from 'react';
 import cssMain from '../../../scss/main.scss';
 import css from './style.scss';
 import FooterMenu from './FooterMenu';
+import FooterMenuSocial from './FooterMenu/Social';
+
 
 const Footer = () => {
   return (
@@ -30,7 +32,7 @@ const Footer = () => {
         />
       </div>
       <div className={cssMain.col_3}>
-        xpto
+        <FooterMenuSocial title="Folow Us" />
       </div>
       <div className={cssMain.col_3}>
         <FooterMenu

@@ -78,7 +78,9 @@ ShallowWrapper {
         <div
           className={undefined}
         >
-          xpto
+          <FooterMenuSocial
+            title="Folow Us"
+          />
         </div>,
         <div
           className={undefined}
@@ -240,11 +242,23 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "xpto",
+          "children": <FooterMenuSocial
+            title="Folow Us"
+          />,
           "className": undefined,
         },
         "ref": null,
-        "rendered": "xpto",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "title": "Folow Us",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "div",
       },
       Object {
@@ -355,7 +369,9 @@ ShallowWrapper {
           <div
             className={undefined}
           >
-            xpto
+            <FooterMenuSocial
+              title="Folow Us"
+            />
           </div>,
           <div
             className={undefined}
@@ -517,11 +533,23 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "xpto",
+            "children": <FooterMenuSocial
+              title="Folow Us"
+            />,
             "className": undefined,
           },
           "ref": null,
-          "rendered": "xpto",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "title": "Folow Us",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "div",
         },
         Object {
