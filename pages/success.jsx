@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import Header from '../src/client/components/Header';
 import cssMain from '../src/scss/main.scss';
 import Template from '../src/client/components/Template';
@@ -37,4 +36,4 @@ class Index extends React.Component {
   }
 }
 
-export default connect()(Index);
+export default Index;

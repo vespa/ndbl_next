@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import cssMain from '../src/scss/main.scss';
 import Template from '../src/client/components/Template';
 import Form from '../src/client/components/Form';
@@ -23,4 +23,4 @@ class Index extends React.Component {
   }
 }
 
-export default connect()(Index);
+export default Index;
