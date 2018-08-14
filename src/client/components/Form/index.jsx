@@ -49,7 +49,8 @@ class Form extends React.Component {
   }
 
   _submit(data) {
-    fetch('http://localhost:5000/api/contact', {
+    const { action } = this.state;
+    fetch(action, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -181,11 +182,11 @@ class Form extends React.Component {
 
           {this._generateInputs(`${cssMain.col_4} ${css['form__inp--multi']}`, [
             {
-              title: 'birthday',
+              title: 'Birthday (YYYY-MM-DD)',
               name: 'birthday',
               type: 'text',
               required: true,
-              validation: 'no-empty',
+              validation: 'date',
               value: birthday,
               Comp: Input,
             },

@@ -6,6 +6,7 @@ class Validation extends React.Component {
     'no-empty': 'can not be empty',
     'e-mail': 'is not filled correctly',
     'dutch-zip': 'is not filled correctly',
+    date: ': incorrect format',
   }
 
   getMessage(type) {
@@ -15,6 +16,10 @@ class Validation extends React.Component {
   check(field) {
     const type = field.getAttribute('validation');
     const valitation = {
+      date: () => {
+        const rule = /^\d{4}-\d{2}-\d{2}$/;
+        return rule.test(field.value);
+      },
       'no-empty': () => {
         return field.value.replace(/\s/, '') !== '';
       },
